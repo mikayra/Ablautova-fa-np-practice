@@ -238,3 +238,6 @@
 [submodule "Ablautova-fa-np-practice"]
 	path = Ablautova-fa-np-practice
 	url = https://github.com/mikayra/Ablautova-fa-np-practice.git
+[submodule "Abla"]
+	path = Abla
+	url = https://github.com/mikayra/Abl.git
