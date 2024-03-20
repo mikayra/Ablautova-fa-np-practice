@@ -235,3 +235,6 @@
 [submodule "new_folder"]
 	path = new_folder
 	url = https://github.com/mikayra/Ablautova-fa-np-practice.git
+[submodule "Ablautova-fa-np-practice"]
+	path = Ablautova-fa-np-practice
+	url = https://github.com/mikayra/Ablautova-fa-np-practice.git
