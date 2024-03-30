@@ -15,7 +15,7 @@ def proc(n, msg=None):
   msg += data.decode()
   conn.send(data)
   print(msg)
-  conn.close()
+  # conn.close()
 
 
 while True:
