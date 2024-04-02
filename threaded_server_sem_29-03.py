@@ -9,7 +9,7 @@ conn, addr = sock.accept()
 print(addr)
 
 
-def proc(n, msg=None):
+def proc(conn, addr):
   msg = ''
   data = conn.recv(1024)
   msg += data.decode()
@@ -21,5 +21,5 @@ def proc(n, msg=None):
 while True:
   conn, addr = sock.accept()
   print(addr)
-  p1 = threading.Thread(target=proc, name='t1', args=['1'])
+  p1 = threading.Thread(target=proc, name='t1', args=(conn, addr))
   p1.start()
